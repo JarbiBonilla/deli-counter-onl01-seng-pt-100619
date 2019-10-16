@@ -4,7 +4,7 @@ def line(array)
 end
 end  
 
-def take_a_number(line, new_person)
-  line.push(new_person) 
+def take_a_number(katz_deli, new_customer)
+  katz_deli.push(new_person) 
   puts "Welcome, #{new_person}, you are number #{line.length} in line."
 end  
